@@ -7,34 +7,42 @@
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:100' rel='stylesheet' type='text/css'>
     <script src="js/scripts.js"></script>
     <script src="js/jquery.onepage-scroll.js"></script>
-    <script src="js/jquery.onepage-scroll.min.js"></script>
-    <link rel="stylesheet" href="public/main/main.css">
-    <link rel="stylesheet" href="public/main/onepage-scroll.css">
+    <link rel="stylesheet" type="text/css" href="public/main/onepage-scroll.css" />
     <link rel="stylesheet" href="public/main/animate.css">
+    <link rel="stylesheet" href="public/main/main.css">
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$(".main").onepage_scroll();
+		});
+	  </script>
 
 
     <title>christian's portfolio</title>
   </head>
   <body>
     <div class="main">
-      <section class="page1">
-        <div class="page_container first-page">
+      <section id="first-page">
+        <div class="first-page-slide">
+	       <img class="fadeInDownBig animated" src="public/img/cl-header.png" alt="header"/>
           <h1>christian lei's portfolio of Work</h1>
-          <h2 class="date">from August-October 2015<div class="buttons"><a class="first-link" href="https://www.github.com/christhub"><img src="public/img/Github-Mark-64px.png" alt="" /></a>
-            <a class="first-link" href="https://www.linkedin.com/in/christianlei"><img src="public/img/linkedin.png" alt="" /></a></h2>
-  	       <img class="fadeInUpBig animated" src="public/img/cl-header.png" alt="header"></div>
-  	    </div>
-      </section>
-      <section class="page2">
+          <h2 class="date">August-October 2015</h2>
+            <p class="buttons"><a class="first-link" href="https://www.github.com/christhub"><img src="public/img/Github-Mark-64px.png" alt="" /></a>
+              <a class="first-link" href="https://www.linkedin.com/in/christianlei"><img src="public/img/linkedin.png" alt="" /></a>
+            </p>
+  	      </div>
+        </section>
+      <section id="second-page">
         <div class="second-page">
           <div class="about-me">
-            <h2>about me</h2>
+            <h2>about me:</h2>
             <p>My name is christian lei and I am a current student at epicodus, a school meant to teach both web development and problem solving skills
             and how they apply to the tech industry. I am excited to apply my new skills toward a positon that involves building meaningful work where I am
           constantly learning and innovating in hope of making an impact on the world.</p>
-          <div class="education"><h3>Previous education includes:</h3>
+          <hr>
+          <div class="education"><h3>Previous education:</h3>
             <ul>
               <li class="school">University of California, Santa Barbara - B.S. Chemical Engineering - 2014</li>
+              <li>Foothill College - Los Altos Hills, CA - Java, Python, C++</li>
               <li class="school">Epicodus - Web Development - 2015</li>
             </ul>
          </div>
@@ -42,7 +50,7 @@
           </div>
         </div>
       </section>
-      <section class="page3">
+      <section id="third-page">
         <div class="third-page">
           <img class="slideInRight board" src="public/img/trail-blazer.png" alt="header">
           <div id="hoard" class="container">

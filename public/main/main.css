@@ -1,14 +1,29 @@
-.first-page {
+.first-page-slide {
   font-family: 'Work Sans', sans-serif;
+  margin-top: 25%;
+  text-align: center;
+}
+
+#first-page {
+  background-color:#FF9966;
 }
 
 .second-page {
   font-family: 'Work Sans', sans-serif;
 }
 
+#second-page {
+  background-color: #3366FF;
+  font-size: 1.5em;
+}
+
 .third-page {
   font-family: 'Work Sans', sans-serif;
   margin-top: 10%;
+}
+
+#third-page {
+  background-color: #33AD5C;
 }
 
 .about-me {
@@ -18,7 +33,7 @@
   padding-top: 10%;
 }
 
-.date {
+h1, .date {
   color:#fff;
 }
 
@@ -26,9 +41,9 @@
   size: 2em;
 }
 
-.first-link:hover {
+/*.first-link:hover {
   color:#FF9966;
-}
+}*/
 
 .school {
   size: 2.5em;
@@ -46,6 +61,8 @@
   width: 40%;
   float: left;
   margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .trail-blazer {
