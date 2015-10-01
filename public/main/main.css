@@ -1,0 +1,77 @@
+.first-page {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.second-page {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.third-page {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 10%;
+}
+
+.about-me {
+  color: #fff;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.date {
+  color:#fff;
+}
+
+.linkedin {
+  size: 2em;
+}
+
+.first-link:hover {
+  color:#FF9966;
+}
+
+.school {
+  size: 2.5em;
+}
+
+.education {
+  /*padding-left: 10%;
+  padding-right: 10%;*/
+  text-align: left;
+  size: 1.5em;
+}
+
+.board {
+  height: 20%;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+
+.trail-blazer {
+  height: 20%;
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+}
+
+#trail-blazer {
+  margin-top: 2%;
+}
+
+.title {
+  font-size: 2.5em;
+  color:#fff;
+}
+
+.date {
+  font-size: 1.5em;
+  color:#fff;
+}
+
+.text {
+  font-size: 1.2em;
+  color:#fff;
+  padding-left: 1%;
+  padding-right: 1%;
+}
