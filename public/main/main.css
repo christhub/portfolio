@@ -4,8 +4,18 @@
   text-align: center;
 }
 
+.education {
+  font-family: 'Work Sans', sans-serif;
+  color:white;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top:-5%;
+  /*padding-top: 10%;*/
+}
+
 #first-page {
   background-color:#FF9966;
+  cursor: url(public/img/down-cursor.png);
 }
 
 .second-page {
@@ -19,21 +29,24 @@
 
 .third-page {
   font-family: 'Work Sans', sans-serif;
-  margin-top: 10%;
+  /*margin-top: 25%;*/
+  margin-left: 3%;
+  height:100%;
+  width: 100%;
 }
 
-#third-page {
-  background-color: #33AD5C;
-}
+
 
 .about-me {
   color: #fff;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10%;
+  /*margin-top: 12%;*/
+  margin-bottom: 5%;
 }
 
-h1, .date {
+h1, .date, a {
   color:#fff;
 }
 
@@ -41,9 +54,9 @@ h1, .date {
   size: 2em;
 }
 
-/*.first-link:hover {
-  color:#FF9966;
-}*/
+.fa:hover {
+  color:#FF6666;
+}
 
 .school {
   size: 2.5em;
@@ -57,7 +70,7 @@ h1, .date {
 }
 
 .board {
-  height: 20%;
+  height: 40%;
   width: 40%;
   float: left;
   margin-left: 5%;
@@ -66,29 +79,58 @@ h1, .date {
 }
 
 .trail-blazer {
-  height: 20%;
+  height:40%;
   width: 40%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#hoard {
+  height: 50%;
+  width: 90%%;
   float: right;
-  margin-right: 5%;
+  margin-right: 10%;
+  padding-left: 5%;
+  margin-bottom: 5%;
 }
 
 #trail-blazer {
-  margin-top: 2%;
+  margin-top: 3%;
+  margin-right: 5%;
+  height: 40%;
 }
 
 .title {
   font-size: 2.5em;
-  color:#fff;
+  color:#000;
+}
+
+.fa-link {
+  color: black;
 }
 
 .date {
   font-size: 1.5em;
-  color:#fff;
+  color:#000;
 }
 
 .text {
   font-size: 1.2em;
-  color:#fff;
-  padding-left: 1%;
-  padding-right: 1%;
+  color:#000;
+  -right: 5%;
+}
+
+.board-img {
+  width: 40%;
+  height: 80%;
+  float: right;
+}
+
+#third-page {
+  background-color: #00FF99;
+  color: black;
+}
+
+.date-first {
+  color: #fff;
 }
