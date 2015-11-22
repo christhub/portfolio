@@ -109,6 +109,10 @@ h1, .date, a {
   color: black;
 }
 
+.fa-github {
+  color: black;
+}
+
 .date {
   font-size: 1.5em;
   color:#000;
